@@ -27,9 +27,9 @@ export default function Home() {
             <h3 className='text-2xl py-2'>Frontend Developer.</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum cum laborum in sequi officia ab laboriosam tenetur mollitia reprehenderit maxime repudiandae, optio voluptatum, quas quasi dolore repellat enim explicabo quisquam!</p>
           </div>
-          <div>
-           <a href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5"><AiFillLinkedin /></a>
-           <a href="https://github.com/fidashn"><AiFillGithub/></a>
+          <div className='text-5xl flex justify-center gap-20 py-3 '>
+           <a className='bg-gradient-to-r from-purple-400 to-teal-300 ' href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5"><AiFillLinkedin /></a>
+           <a className='bg-gradient-to-r from-purple-400 to-teal-300' href="https://github.com/fidashn"><AiFillGithub/></a>
           </div>
           
         </section>
