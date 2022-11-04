@@ -1,6 +1,9 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill }from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub,AiOutlineLink}from 'react-icons/ai';
+import {FaHtml5, FaReact, FaNodeJs, FaCss3} from 'react-icons/fa';
+import {IoLogoJavascript} from 'react-icons/io5';
+import {SiMongodb, SiTailwindcss, SiStyledcomponents, SiCypress} from 'react-icons/si';
 import Image from 'next/image';
 import myPic from '../public/Images/me.png';
 import bank from '../public/Images/bank-img.png';
@@ -26,13 +29,14 @@ export default function Home() {
             <h1 className='text-xl font-burtons'>Developed by</h1>
             <ul className='flex items-center'>
              <li><BsFillMoonStarsFill className='cursor-pointer text-2xl'/></li>
-             <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white font-burtons px-8 py-2 rounded-3xl text-lg ml-8 ' href="Fida-Sh-CV-FrontEnd.pdf"><button >Download CV</button></a></li> 
+             <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white font-burtons px-8 py-2 rounded-3xl text-lg ml-8 ' href="Fida-Sh-CV-FrontEnd.pdf">Download CV</a></li> 
             </ul>
           </nav>
           <div className='text-center p10'>
             <h2 className='text-4xl py-2 text-teal-500 font-medium md:text-6xl'>Fida Shnakher</h2>
             <h3 className='text-2xl py-2 md:text-3xl'>Frontend Developer.</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum cum laborum in sequi officia ab laboriosam tenetur mollitia reprehenderit maxime repudiandae, optio voluptatum, quas quasi dolore repellat enim explicabo quisquam!</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>I started my journey in frontend development, looking forward to join a company that shares my values, and enables me to fulfill my potential.
+            you can scroll down to see my work in the projects section, hope you like it.</p>
           </div>
           <div className='text-5xl flex justify-center gap-20 py-3 '>
            <a className='text-purple-400 ' href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5"><AiFillLinkedin /></a>
@@ -47,10 +51,21 @@ export default function Home() {
           <section>
             <div>
               <h3 className='text-3xl py-1  mt-20 flex justify-center text-teal-500'>Technologies that I use</h3>
-              <p className='text-md py-2 leading-8 text-gray-800 md:text-xl flex justify-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, <span className='text-purple-400 '>incidunt!</span> </p>
+              <div className='flex justify-center p-10 gap-5'>
+              <FaHtml5 className='text-4xl text-purple-400'/>
+              <IoLogoJavascript className='text-4xl text-purple-400'/>
+              <FaCss3 className='text-4xl text-purple-400'/>
+              <SiTailwindcss className='text-4xl text-purple-400'/>
+              <SiStyledcomponents className='text-4xl text-purple-400'/>
+              <FaReact className='text-4xl text-purple-400'/>
+              <FaNodeJs className='text-4xl text-purple-400'/>
+              <SiMongodb  className='text-4xl text-purple-400'/>
+              <SiCypress  className='text-4xl text-purple-400'/>
+             </div>
+              {/* <p className='text-md py-2 leading-8 text-gray-800 md:text-xl flex justify-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, <span className='text-purple-400 '>incidunt!</span> </p> */}
             </div>
             <div className=' flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <h3 className='text-teal-500 text-3xl py-1 mt-20  flex justify-center'>My Favorite Projects</h3>
+              <h3 className='text-teal-500 text-3xl py-1 mt-10  flex justify-center'>My Favorite Projects</h3>
               <div className='mt-10 lg:flex-col justify-center gap-10'>
                 <div className='basis-1/3 flex-1  '>
                   <a className='text-4xl text-purple-400' href="https://github.com/fidashn/virtual-bank"><span className='text-xl text-teal-500'>Repository</span> <AiFillGithub/></a>
