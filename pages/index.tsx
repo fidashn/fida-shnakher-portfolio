@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill }from 'react-icons/bs';
-import { AiFillLinkedin, AiFillGithub}from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub,}from 'react-icons/ai';
 import Image from 'next/image';
 import myPic from '../public/Images/me.png';
 
@@ -35,10 +35,16 @@ export default function Home() {
           </div>
 
           <div className='relative mx-auto bg-gradient-to-r from-purple-400 to-teal-300 rounded-full w-80 h-80 mt-20'>
-            <Image alt='' src={myPic} layout="fill" objectFit="cover" className='rounded-full w-80 h-80'/>
+            <Image alt='' src={myPic} layout='fill' objectFit="cover" className='rounded-full w-80 h-80'/>
           </div>
-          
-        </section>
+          </section>
+
+          <section>
+            <div>
+              <h3 className='text-3xl py-1'>Technologies that I use</h3>
+              <p className='text-md py-2 leading-8 text-gray-800'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, incidunt!</p>
+            </div>
+          </section>
       </main>
 
       <footer >
