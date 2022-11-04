@@ -32,31 +32,31 @@ export default function Home() {
           <div className='text-center p10'>
             <h2 className='text-4xl py-2 text-teal-500 font-medium md:text-6xl'>Fida Shnakher</h2>
             <h3 className='text-2xl py-2 md:text-3xl'>Frontend Developer.</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum cum laborum in sequi officia ab laboriosam tenetur mollitia reprehenderit maxime repudiandae, optio voluptatum, quas quasi dolore repellat enim explicabo quisquam!</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum cum laborum in sequi officia ab laboriosam tenetur mollitia reprehenderit maxime repudiandae, optio voluptatum, quas quasi dolore repellat enim explicabo quisquam!</p>
           </div>
           <div className='text-5xl flex justify-center gap-20 py-3 '>
            <a className='bg-gradient-to-r from-purple-400 to-teal-300 ' href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5"><AiFillLinkedin /></a>
            <a className='bg-gradient-to-r from-purple-400 to-teal-300' href="https://github.com/fidashn"><AiFillGithub/></a>
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-r from-purple-400 to-teal-300 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          <div className='relative mx-auto bg-gradient-to-r from-purple-400 to-teal-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image alt='' src={myPic} layout='fill' objectFit="cover" />
           </div>
           </section>
 
           <section>
             <div>
-              <h3 className='text-3xl py-1 text-teal-500 mt-20 flex justify-center'>Technologies that I use</h3>
+              <h3 className='text-3xl py-1 text-purple-400 mt-20 flex justify-center'>Technologies that I use</h3>
               <p className='text-md py-2 leading-8 text-gray-800 md:text-xl flex justify-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, <span className='text-teal-500 '>incidunt!</span> </p>
             </div>
-            <div>
-              <h3 className='text-teal-500 text-3xl py-1 mt-20  flex justify-center'>My Favorite Projects</h3>
-              <div className='mt-10 '>
-                <Image alt='' src={bank}/>
-                <Image alt='' src={dice}/>
-                <Image alt='' src={hotel}/>
-                <Image alt='' src={shoes}/>
-                <Image alt='' src={todo}/>
+            <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+              <h3 className='text-purple-400 text-3xl py-1 mt-20  flex justify-center'>My Favorite Projects</h3>
+              <div className='mt-10 lg:flex-col gap-10'>
+                <div><Image alt='' src={bank}/></div>
+                <div><Image alt='' src={todo}/></div>
+                <div><Image alt='' src={dice}/></div>
+                <div><Image alt='' src={hotel}/></div>
+                <div><Image alt='' src={shoes}/></div>
               </div>
             </div>
           </section>
