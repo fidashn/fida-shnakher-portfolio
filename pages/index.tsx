@@ -52,16 +52,21 @@ export default function Home() {
             <div className=' flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <h3 className='text-purple-400 text-3xl py-1 mt-20  flex justify-center'>My Favorite Projects</h3>
               <div className='mt-10 lg:flex-col justify-center gap-10'>
-                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/virtual-bank"><AiFillGithub/></a>
-                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover'  layout='responsive' src={bank}/></div>
-                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/to-do-list"><AiFillGithub/></a>
-                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={todo}/></div>
-                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/dice-game1"><AiFillGithub/></a>
-                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={dice}/></div>
-                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/HOTEL_WEBSITE"><AiFillGithub/></a>
-                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={hotel}/></div>
-                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/landing-page"><AiFillGithub/></a>
-                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={shoes}/></div>
+                <div className='basis-1/3 flex-1'>
+                  <a className='text-4xl text-purple-400' href="https://github.com/fidashn/virtual-bank"><span className='text-xl text-teal-500'>Repository</span> <AiFillGithub/></a>
+                <a href="https://vir-bank-fi.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className=' text-3xl  text-purple-400'/></a><Image alt='' className='rounded-lg object-cover'  layout='responsive' src={bank}/></div>
+
+                <div className='basis-1/3 flex-1'><a className='text-4xl text-purple-400' href="https://github.com/fidashn/to-do-list"><span className='text-xl text-teal-500'>Repository</span><AiFillGithub/></a>
+                <a href="https://todosli.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={todo}/></div>
+
+                <div className='basis-1/3 flex-1'><a className='text-4xl text-purple-400' href="https://github.com/fidashn/dice-game1"><span className='text-xl text-teal-500'>Repository</span><AiFillGithub/></a>
+                <a href="https://dice-game-f.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={dice}/></div>
+
+                <div className='basis-1/3 flex-1'><a className='text-4xl text-purple-400' href="https://github.com/fidashn/HOTEL_WEBSITE"><span className='text-xl text-teal-500'>Repository</span><AiFillGithub/></a>
+                <a href="https://btm-hotel.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={hotel}/></div>
+
+                <div className='basis-1/3 flex-1'><a className='text-4xl text-purple-400' href="https://github.com/fidashn/landing-page"><span className='text-xl text-teal-500'>Repository</span><AiFillGithub/></a>
+                <a href="https://amazing-shoes-fi.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={shoes}/></div>
               </div>
             </div>
           </section>
