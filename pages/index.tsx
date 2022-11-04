@@ -26,7 +26,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons'>Developed by</h1>
             <ul className='flex items-center'>
              <li><BsFillMoonStarsFill className='cursor-pointer text-2xl'/></li>
-             <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white font-burtons px-8 py-2 rounded-3xl text-lg ml-8 ' href="../public/Fida-Sh-CV-FrontEnd.pdf">Resume</a></li> 
+             <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white font-burtons px-8 py-2 rounded-3xl text-lg ml-8 ' href="Fida-Sh-CV-FrontEnd.pdf"><button >Download CV</button></a></li> 
             </ul>
           </nav>
           <div className='text-center p10'>
