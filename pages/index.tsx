@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { BsFillMoonStarsFill }from 'react-icons';
+import { BsFillMoonStarsFill }from 'react-icons/bs';
 
 
 export default function Home() {
