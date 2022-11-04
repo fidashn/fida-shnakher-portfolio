@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill }from 'react-icons/bs';
-import { AiFillLinkedin, AiFillGithub,}from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub,AiOutlineLink}from 'react-icons/ai';
 import Image from 'next/image';
 import myPic from '../public/Images/me.png';
 import bank from '../public/Images/bank-img.png';
@@ -49,14 +49,19 @@ export default function Home() {
               <h3 className='text-3xl py-1 text-purple-400 mt-20 flex justify-center'>Technologies that I use</h3>
               <p className='text-md py-2 leading-8 text-gray-800 md:text-xl flex justify-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, <span className='text-teal-500 '>incidunt!</span> </p>
             </div>
-            <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className=' flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <h3 className='text-purple-400 text-3xl py-1 mt-20  flex justify-center'>My Favorite Projects</h3>
-              <div className='mt-10 lg:flex-col gap-10'>
-                <div><Image alt='' src={bank}/></div>
-                <div><Image alt='' src={todo}/></div>
-                <div><Image alt='' src={dice}/></div>
-                <div><Image alt='' src={hotel}/></div>
-                <div><Image alt='' src={shoes}/></div>
+              <div className='mt-10 lg:flex-col justify-center gap-10'>
+                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/virtual-bank"><AiFillGithub/></a>
+                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover'  layout='responsive' src={bank}/></div>
+                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/to-do-list"><AiFillGithub/></a>
+                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={todo}/></div>
+                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/dice-game1"><AiFillGithub/></a>
+                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={dice}/></div>
+                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/HOTEL_WEBSITE"><AiFillGithub/></a>
+                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={hotel}/></div>
+                <div className='basis-1/3 flex-1'><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl' href="https://github.com/fidashn/landing-page"><AiFillGithub/></a>
+                <a href=""><AiOutlineLink className='bg-gradient-to-r from-purple-400 to-teal-300 text-3xl'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={shoes}/></div>
               </div>
             </div>
           </section>
