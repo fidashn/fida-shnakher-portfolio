@@ -12,7 +12,15 @@ export default function Home() {
 
 
       <main >
-        <section className='bg-blue-700 min-h-screen'></section>
+        <section className='min-h-screen'>
+          <nav>
+            <h1>Fida Shnakher|Frontend Developer</h1>
+            <ul>
+             <li></li>
+             <li><a href="../public/Fida-Sh-CV-FrontEnd.pdf">Resume</a></li> 
+            </ul>
+          </nav>
+        </section>
       </main>
 
       <footer >
