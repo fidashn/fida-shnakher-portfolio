@@ -25,7 +25,7 @@ export default function Home() {
           <div className='text-center p10'>
             <h2 className='text-4xl py-2 text-teal-500 font-medium'>Fida Shnakher</h2>
             <h3 className='text-2xl py-2'>Frontend Developer.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, alias!</p>
+            <p className='text-md py-5 leading-8 text-gray-800'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum cum laborum in sequi officia ab laboriosam tenetur mollitia reprehenderit maxime repudiandae, optio voluptatum, quas quasi dolore repellat enim explicabo quisquam!</p>
           </div>
           <div>
            <a href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5"><AiFillLinkedin /></a>
