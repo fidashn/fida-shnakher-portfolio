@@ -14,7 +14,7 @@ export default function Home() {
 
       <main >
         <section className='min-h-screen'>
-          <nav>
+          <nav className='py-10'>
             <h1>Fida Shnakher|Frontend Developer</h1>
             <ul>
              <li><BsFillMoonStarsFill/></li>
