@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { BsFillMoonStarsFill }from 'react-icons';
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
           <nav>
             <h1>Fida Shnakher|Frontend Developer</h1>
             <ul>
-             <li></li>
+             <li><BsFillMoonStarsFill/></li>
              <li><a href="../public/Fida-Sh-CV-FrontEnd.pdf">Resume</a></li> 
             </ul>
           </nav>
