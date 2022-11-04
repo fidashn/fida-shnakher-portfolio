@@ -16,7 +16,7 @@ export default function Home() {
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1>Fida Shnakher|Frontend Developer</h1>
-            <ul>
+            <ul className='flex items-center'>
              <li><BsFillMoonStarsFill/></li>
              <li><a href="../public/Fida-Sh-CV-FrontEnd.pdf">Resume</a></li> 
             </ul>
