@@ -12,7 +12,7 @@ export default function Home() {
 
 
       <main >
-        
+        <section className='bg-blue-700 min-h-screen'></section>
       </main>
 
       <footer >
