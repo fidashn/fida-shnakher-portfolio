@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill }from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub}from 'react-icons/ai';
+import Image from 'next/image';
+import myPic from '../public/Images/me.png';
 
 
 export default function Home() {
@@ -30,6 +32,10 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-20 py-3 '>
            <a className='bg-gradient-to-r from-purple-400 to-teal-300 ' href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5"><AiFillLinkedin /></a>
            <a className='bg-gradient-to-r from-purple-400 to-teal-300' href="https://github.com/fidashn"><AiFillGithub/></a>
+          </div>
+
+          <div className='relative mx-auto bg-gradient-to-r from-purple-400 to-teal-300 rounded-full w-80 h-80 mt-20'>
+            <Image alt='' src={myPic} layout="fill" objectFit="cover" className='rounded-full w-80 h-80'/>
           </div>
           
         </section>
