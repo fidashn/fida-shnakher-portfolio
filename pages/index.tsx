@@ -14,7 +14,7 @@ export default function Home() {
 
       <main >
         <section className='min-h-screen'>
-          <nav className='py-10'>
+          <nav className='py-10 mb-12 flex justify-between'>
             <h1>Fida Shnakher|Frontend Developer</h1>
             <ul>
              <li><BsFillMoonStarsFill/></li>
