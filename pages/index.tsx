@@ -34,8 +34,8 @@ export default function Home() {
            <a className='bg-gradient-to-r from-purple-400 to-teal-300' href="https://github.com/fidashn"><AiFillGithub/></a>
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-r from-purple-400 to-teal-300 rounded-full w-80 h-80 mt-20'>
-            <Image alt='' src={myPic} layout='fill' objectFit="cover" className='rounded-full w-80 h-80'/>
+          <div className='relative mx-auto bg-gradient-to-r from-purple-400 to-teal-300 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+            <Image alt='' src={myPic} layout='fill' objectFit="cover" />
           </div>
           </section>
 
