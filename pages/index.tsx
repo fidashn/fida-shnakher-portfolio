@@ -22,15 +22,16 @@ export default function Home() {
              <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white font-burtons px-8 py-2 rounded-3xl text-lg ml-8 ' href="../public/Fida-Sh-CV-FrontEnd.pdf">Resume</a></li> 
             </ul>
           </nav>
-          <div>
-            <h2>Fida Shnakher</h2>
-            <h3>Frontend Developer.</h3>
+          <div className='text-center p10'>
+            <h2 className='text-4xl py-2 text-teal-500 font-medium'>Fida Shnakher</h2>
+            <h3 className='text-2xl py-2'>Frontend Developer.</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, alias!</p>
           </div>
           <div>
            <a href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5"><AiFillLinkedin /></a>
            <a href="https://github.com/fidashn"><AiFillGithub/></a>
           </div>
+          
         </section>
       </main>
 
