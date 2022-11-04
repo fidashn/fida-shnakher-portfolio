@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
 
-      <main >
+      <main className='bg-white px-10'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1>Fida Shnakher|Frontend Developer</h1>
