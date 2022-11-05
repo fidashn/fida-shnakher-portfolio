@@ -31,7 +31,7 @@ export default function Home() {
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 lg:flex justify-between max-sm:flex-col sm:justify-between sm:gap-5 sm:mt-2 nav'>
             <h1 className='text-xl dark:text-white sm:text-lg'>Developed by</h1>
-            <ul className='flex items-center sm:flex sm:justify-between max-sm:mt-7  ul'>
+            <ul className='flex items-center sm:flex sm:justify-between max-sm:mt-7'>
              <li><BsFillMoonStarsFill
               onClick={()=>setDarkMode(!darkMode)}
               className='cursor-pointer text-2xl dark:text-white' /></li>
@@ -49,15 +49,15 @@ export default function Home() {
            <a className='text-purple-400' href="https://github.com/fidashn"><AiFillGithub/></a>
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-85 h-85 mt-20 overflow-hidden md:h-96 md:w-96 sm:h-70 sm:w-70'>
+          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-85 h-85 mt-20 overflow-hidden md:h-96 md:w-96 max-sm:h-50 max-sm:w-50 max-sm:mb-5'>
             <Image alt='' src={myPic} layout='fill' objectFit="contain" />
           </div>
           </section>
 
           <section>
             <div>
-              <h3 className='text-3xl py-1  mt-20 flex justify-center text-teal-500'>Technologies that I use</h3>
-              <div className='flex justify-center p-10 gap-5'>
+              <h3 className='text-3xl py-1  mt-20 flex justify-center text-teal-500 '>Technologies that I use</h3>
+              <div className='flex justify-center p-10 gap-5 max-sm:flex-wrap max-sm:text-lg'>
               <FaHtml5 className='text-4xl text-purple-400'/>
               <IoLogoJavascript className='text-4xl text-purple-400'/>
               <FaCss3 className='text-4xl text-purple-400'/>
