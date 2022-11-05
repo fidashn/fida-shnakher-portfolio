@@ -8,10 +8,10 @@ in this projet I got to implement what I learned in NextJs & TailwindCss, I had 
 
 # A brief view of the project
 
-![Home](readme-images\portfolio-1.png)
-![Technologies](readme-images\portfolio-2.png)
-![Projects](readme-images\portfolio-3.png)
-![Interview](readme-images\portfolio-4.png)
+![Home](readme-images/portfolio-1.png)
+![Technologies](readme-images/portfolio-2.png)
+![Projects](readme-images/portfolio-3.png)
+![Interview](readme-images/portfolio-4.png)
 
 
 
