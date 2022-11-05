@@ -5,10 +5,10 @@ Javascript, NextJs, TailwindCss, React Icons.
 
 in this projet I got to implement what I learned in NextJs & TailwindCss, I had lots of fun creating this project not only because it's about me, it's more because of the fact that I learned new manipulation techniques of css, hope you enjoy it. 
 
-![Home](Images\readme-images\portfolio-1.png)
-![Technologies](Images\readme-images\portfolio-2.png)
-![Projects](Images\readme-images\portfolio-3.png)
-![Interview](Images\readme-images\portfolio-4.png)
+![Home](readme-images\portfolio-1.png)
+![Technologies](readme-images\portfolio-2.png)
+![Projects](readme-images\portfolio-3.png)
+![Interview](readme-images\portfolio-4.png)
 
 
 
