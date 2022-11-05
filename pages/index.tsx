@@ -45,8 +45,8 @@ export default function Home() {
             you can scroll down to see my work in the projects section, hope you like it.</p>
           </div>
           <div className='text-5xl flex justify-center  gap-20 py-3 '>
-           <a className='text-purple-400 ' href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5"><AiFillLinkedin /></a>
-           <a className='text-purple-400' href="https://github.com/fidashn"><AiFillGithub/></a>
+           <a className='text-purple-400 ' href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5" target="_"><AiFillLinkedin /></a>
+           <a className='text-purple-400' href="https://github.com/fidashn" target="_"><AiFillGithub/></a>
           </div>
 
           <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-90 md:w-90  flex justify-center '>
