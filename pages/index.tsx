@@ -69,19 +69,19 @@ export default function Home() {
               <div className='mt-10 lg:flex-col justify-center gap-10'>
                 <div className='basis-1/3 flex-1  '>
                   <a className='text-4xl text-purple-400' href="https://github.com/fidashn/virtual-bank"><span className='text-xl text-teal-500'>Repository</span> <AiFillGithub/></a>
-                <a href="https://vir-bank-fi.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className=' text-3xl  text-purple-400'/></a><Image alt='' className='rounded-lg object-cover'  layout='responsive' src={bank}/></div>
+                <a href="https://vir-bank-fi.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className=' text-3xl  text-purple-400'/></a><Image alt='' className='rounded-3xl object-cover'  layout='responsive' src={bank}/></div>
 
                 <div className='basis-1/3 flex-1 '><a className='text-4xl text-purple-400' href="https://github.com/fidashn/to-do-list"><span className='text-xl text-teal-500'>Repository</span><AiFillGithub/></a>
-                <a href="https://todosli.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={todo}/></div>
+                <a href="https://todosli.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-3xl object-cover' layout='responsive' src={todo}/></div>
 
                 <div className='basis-1/3 flex-1 '><a className='text-4xl text-purple-400' href="https://github.com/fidashn/dice-game1"><span className='text-xl text-teal-500'>Repository</span><AiFillGithub/></a>
-                <a href="https://dice-game-f.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={dice}/></div>
+                <a href="https://dice-game-f.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-3xl object-cover' layout='responsive' src={dice}/></div>
 
                 <div className='basis-1/3 flex-1 '><a className='text-4xl text-purple-400' href="https://github.com/fidashn/HOTEL_WEBSITE"><span className='text-xl text-teal-500'>Repository</span><AiFillGithub/></a>
-                <a href="https://btm-hotel.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={hotel}/></div>
+                <a href="https://btm-hotel.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-3xl object-cover' layout='responsive' src={hotel}/></div>
 
                 <div className='basis-1/3 flex-1 '><a className='text-4xl text-purple-400' href="https://github.com/fidashn/landing-page"><span className='text-xl text-teal-500'>Repository</span><AiFillGithub/></a>
-                <a href="https://amazing-shoes-fi.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-lg object-cover' layout='responsive' src={shoes}/></div>
+                <a href="https://amazing-shoes-fi.netlify.app/"><span className='text-xl text-teal-500'>Demo</span><AiOutlineLink className='text-4xl text-purple-400'/></a><Image alt='' className='rounded-3xl object-cover' layout='responsive' src={shoes}/></div>
               </div>
             </div>
           </section>
