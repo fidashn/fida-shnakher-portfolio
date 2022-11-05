@@ -49,8 +49,8 @@ export default function Home() {
            <a className='text-purple-400' href="https://github.com/fidashn"><AiFillGithub/></a>
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-90 md:w-90  flex justify-center  image-w'>
-            <Image alt='' src={myPic} layout='fill' objectFit="contain" />
+          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-90 md:w-90  flex justify-center '>
+            <Image alt='' src={myPic} layout='fill' objectFit="contain" className='max-sm:pr-7' />
           </div>
           </section>
 
