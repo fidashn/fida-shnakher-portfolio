@@ -35,7 +35,7 @@ export default function Home() {
              <li><BsFillMoonStarsFill
               onClick={()=>setDarkMode(!darkMode)}
               className='cursor-pointer text-2xl dark:text-white' /></li>
-             <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white  px-8 py-2 rounded-xl text-lg ml-8 ' href="Fida-Sh-CV-FrontEnd.pdf">Download CV</a></li> 
+             <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white  px-8 py-2 rounded-xl text-lg ml-8 ' href="Fida-Sh-CV-FrontEnd.pdf">View CV</a></li> 
             </ul>
           </nav>
           <div className='text-center p10'>
