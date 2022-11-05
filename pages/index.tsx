@@ -11,7 +11,7 @@ import dice from '../public/Images/dice-img.png';
 import hotel from '../public/Images/hotel-img.png';
 import shoes from '../public/Images/shoes-img.png';
 import todo from '../public/Images/to-do-list-img.png';
-import { useState } from "react";
+import { useState } from 'react';
 
 
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl dark:text-white'>Developed by</h1>
             <ul className='flex items-center'>
-             <li><BsFillMoonStarsFill className='cursor-pointer text-2xl'  onClick={() => setDarkMode(!darkMode)}/></li>
+             <li><BsFillMoonStarsFill className='cursor-pointer text-2xl' onClick={()=>setDarkMode(!darkMode)}/></li>
              <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white  px-8 py-2 rounded-xl text-lg ml-8 ' href="Fida-Sh-CV-FrontEnd.pdf">Download CV</a></li> 
             </ul>
           </nav>
