@@ -29,17 +29,17 @@ export default function Home() {
 
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-black'>
         <section className='min-h-screen'>
-          <nav className='py-10 mb-12 lg:flex justify-between xsm:flex-col xsm:justify-between'>
-            <h1 className='text-xl dark:text-white'>Developed by</h1>
-            <ul className='flex items-center '>
+          <nav className='py-10 mb-12 lg:flex justify-between max-sm:flex-col sm:justify-between sm:gap-5 sm:mt-2 nav'>
+            <h1 className='text-xl dark:text-white sm:text-lg'>Developed by</h1>
+            <ul className='flex items-center sm:flex sm:justify-between max-sm:mt-7  ul'>
              <li><BsFillMoonStarsFill
               onClick={()=>setDarkMode(!darkMode)}
               className='cursor-pointer text-2xl dark:text-white' /></li>
-             <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white  px-8 py-2 rounded-xl text-lg ml-8 md:px-2' href="Fida-Sh-CV-FrontEnd.pdf">Download CV</a></li> 
+             <li><a className='bg-gradient-to-r from-purple-400 to-teal-300 text-white  px-8 py-2 rounded-xl text-lg ml-8 ' href="Fida-Sh-CV-FrontEnd.pdf">Download CV</a></li> 
             </ul>
           </nav>
           <div className='text-center p10'>
-            <h2 className='text-4xl py-2 text-teal-500 font-medium md:text-6xl'>Fida Shnakher</h2>
+            <h2 className='text-4xl py-2 text-teal-500 font-medium md:text-6xl sm:text-2xl'>Fida Shnakher</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Frontend Developer.</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>I started my journey in frontend development, looking forward to join a company that shares my values, and enables me to fulfill my potential.
             you can scroll down to see my work in the projects section, hope you like it.</p>
@@ -49,7 +49,7 @@ export default function Home() {
            <a className='text-purple-400' href="https://github.com/fidashn"><AiFillGithub/></a>
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-85 h-85 mt-20 overflow-hidden md:h-96 md:w-96'>
+          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-85 h-85 mt-20 overflow-hidden md:h-96 md:w-96 sm:h-70 sm:w-70'>
             <Image alt='' src={myPic} layout='fill' objectFit="contain" />
           </div>
           </section>
