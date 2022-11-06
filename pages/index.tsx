@@ -76,26 +76,26 @@ export default function Home() {
               <div className='mt-10 lg:flex-col justify-center gap-10'>
 
                 <div className='basis-1/3 flex-1 '>
-                  <h3 className='text-3xl flex justify-center items-center m-10 text-purple-400 max-sm:text-2xl'>Virtual Bank </h3>
+                  <h3 className='text-3xl flex justify-center items-center m-10 text-purple-400 max-sm:text-2xl'>Virtual Bank Website</h3>
                   <div className='flex justify-around items-center gap-10 align-bottom mb-5'>
                   <a className='text-4xl text-purple-400' href="https://github.com/fidashn/virtual-bank" target="_"><p className='text-xl text-teal-500 '>Repository</p> <AiFillGithub/></a>
                 <a href="https://vir-bank-fi.netlify.app/" target="_"><p className='text-xl text-teal-500 flex justify-center'>Demo</p><AiOutlineLink className=' text-4xl  text-purple-400  flex justify-center items-center'/></a></div>
                 <Image alt='' className='rounded-3xl object-cover' layout='responsive' src={bank}/></div>
 
                 <div className='basis-1/3 flex-1 '>
-                <h3 className='text-3xl flex justify-center m-10 text-purple-400 max-sm:text-2xl'>To Do List</h3>
+                <h3 className='text-3xl flex justify-center m-10 text-purple-400 max-sm:text-2xl'>To Do List Website</h3>
                   <div className='flex justify-around gap-10 align-bottom mb-5'><a className='text-4xl text-purple-400' href="https://github.com/fidashn/to-do-list" target="_"><p className='text-xl text-teal-500'>Repository</p><AiFillGithub/></a>
                 <a href="https://todosli.netlify.app/" target="_"><p className='text-xl text-teal-500'>Demo</p><AiOutlineLink className='text-4xl text-purple-400'/></a></div>
                 <Image alt='' className='rounded-3xl object-cover' layout='responsive' src={todo}/></div>
 
                 <div className='basis-1/3 flex-1 '>
-                <h3 className='text-3xl flex justify-center m-10 text-purple-400 max-sm:text-2xl'>Dice Game </h3>
+                <h3 className='text-3xl flex justify-center m-10 text-purple-400 max-sm:text-2xl'>Dice Game Website</h3>
                   <div className='flex justify-around gap-10 align-bottom mb-5'><a className='text-4xl text-purple-400' href="https://github.com/fidashn/dice-game1" target="_"><p className='text-xl text-teal-500'>Repository</p><AiFillGithub/></a>
                 <a href="https://dice-game-f.netlify.app/" target="_"><p className='text-xl text-teal-500'>Demo</p><AiOutlineLink className='text-4xl text-purple-400'/></a></div>
                 <Image alt='' className='rounded-3xl object-cover' layout='responsive' src={dice}/></div>
 
                 <div className='basis-1/3 flex-1 '>
-                <h3 className='text-3xl flex justify-center m-10 text-purple-400 max-sm:text-2xl'>Hotel </h3>
+                <h3 className='text-3xl flex justify-center m-10 text-purple-400 max-sm:text-2xl'>Hotel Website</h3>
                   <div className='flex justify-around gap-10 align-bottom mb-5'><a className='text-4xl text-purple-400' href="https://github.com/fidashn/HOTEL_WEBSITE" target="_"><p className='text-xl text-teal-500'>Repository</p><AiFillGithub/></a>
                 <a href="https://btm-hotel.netlify.app/" target="_"><p className='text-xl text-teal-500'>Demo</p><AiOutlineLink className='text-4xl text-purple-400'/></a></div>
                 <Image alt='' className='rounded-3xl object-cover' layout='responsive' src={hotel}/></div>
