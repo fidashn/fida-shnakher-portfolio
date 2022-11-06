@@ -48,7 +48,7 @@ export default function Home() {
            <a className='text-purple-400 ' href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5" target="_"><AiFillLinkedin /></a>
            <a className='text-purple-400' href="https://github.com/fidashn" target="_"><AiFillGithub/></a>
           </div>
-          <div className='max-sm:flex max-sm:justify-center max-sm:items-center max-sm:h-60 max-sm:w-50 max-sm:rounded-full'>
+          <div className='max-sm:flex max-sm:justify-center max-sm:items-center max-sm:h-60 max-sm:w-50 max-sm:rounded-full max-sm:mb-10 max-sm:mt-10'>
           <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-90 md:w-90  max-sm:flex max-sm:justify-center  px-2 ima'>
             <Image alt='' src={myPic} layout='fill' objectFit="contain"  />
           </div>
@@ -57,7 +57,7 @@ export default function Home() {
 
           <section>
             <div>
-              <h3 className='text-3xl py-1   mt-20 flex justify-center text-teal-500 max-sm:text-3xl'>Technologies I use</h3>
+              <h3 className='text-3xl py-1  mt-20 flex justify-center text-teal-500 max-sm:text-3xl max-sm:pt-10'>Technologies I use</h3>
               <div className='flex justify-center p-10 gap-5 max-sm:flex-wrap max-sm:text-lg'>
               <FaHtml5 className='text-4xl text-purple-400'/>
               <IoLogoJavascript className='text-4xl text-purple-400'/>
