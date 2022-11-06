@@ -48,9 +48,10 @@ export default function Home() {
            <a className='text-purple-400 ' href="https://www.linkedin.com/in/fida-shnakher-0b0b4a1b5" target="_"><AiFillLinkedin /></a>
            <a className='text-purple-400' href="https://github.com/fidashn" target="_"><AiFillGithub/></a>
           </div>
-
-          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-90 md:w-90  max-sm:flex max-sm:justify-center px-2 ima'>
-            <Image alt='' src={myPic} layout='fill' objectFit="contain" className='max-sm:pr-7' />
+          <div className='max-sm:flex max-sm:justify-center max-sm:items-center max-sm:h-60 max-sm:w-50 max-sm:rounded-full'>
+          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-90 md:w-90  max-sm:flex max-sm:justify-center  px-2 ima'>
+            <Image alt='' src={myPic} layout='fill' objectFit="contain"  />
+          </div>
           </div>
           </section>
 
