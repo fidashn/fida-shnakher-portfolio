@@ -31,7 +31,7 @@ export default function Home() {
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 lg:flex justify-between max-sm:flex-col max-sm:justify-between max-sm:items-center  nav'>
             <h1 className='text-xl dark:text-white sm:text-lg'>Developed by</h1>
-            <ul className='flex items-center sm:flex sm:justify-between max-sm:mt-7'>
+            <ul className='flex items-center sm:flex max-sm:justify-center max-sm:mt-7'>
              <li><BsFillMoonStarsFill
               onClick={()=>setDarkMode(!darkMode)}
               className='cursor-pointer text-2xl dark:text-white' /></li>
@@ -49,7 +49,7 @@ export default function Home() {
            <a className='text-purple-400' href="https://github.com/fidashn" target="_"><AiFillGithub/></a>
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-90 md:w-90  flex justify-center '>
+          <div className='relative mx-auto bg-gradient-to-bl from-purple-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-90 md:w-90  max-sm:flex max-sm:justify-center px-2 ima'>
             <Image alt='' src={myPic} layout='fill' objectFit="contain" className='max-sm:pr-7' />
           </div>
           </section>
