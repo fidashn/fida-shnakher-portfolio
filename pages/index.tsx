@@ -56,7 +56,7 @@ export default function Home() {
 
           <section>
             <div>
-              <h3 className='text-3xl py-1  mt-20 flex justify-center text-teal-500 '>Technologies that I use</h3>
+              <h3 className='text-3xl py-1   mt-20 flex justify-center text-teal-500 max-sm:text-3xl'>Technologies I use</h3>
               <div className='flex justify-center p-10 gap-5 max-sm:flex-wrap max-sm:text-lg'>
               <FaHtml5 className='text-4xl text-purple-400'/>
               <IoLogoJavascript className='text-4xl text-purple-400'/>
@@ -76,7 +76,7 @@ export default function Home() {
               <div className='mt-10 lg:flex-col justify-center gap-10'>
 
                 <div className='basis-1/3 flex-1 '>
-                  <h3 className='text-3xl flex justify-center items-center m-4 text-purple-400 max-sm:text-2xl max-sm:items-center title'>Virtual Bank Website</h3>
+                  <h3 className='text-3xl flex justify-center items-center m-4 text-purple-400 max-sm:text-2xl max-sm:items-center '>Virtual Bank Website</h3>
                   <div className='flex justify-around items-center gap-10 align-bottom mb-5'>
                   <a className='text-4xl text-purple-400' href="https://github.com/fidashn/virtual-bank" target="_"><p className='text-xl text-teal-500 '>Repository</p> <AiFillGithub/></a>
                 <a href="https://vir-bank-fi.netlify.app/" target="_"><p className='text-xl text-teal-500 flex justify-center'>Demo</p><AiOutlineLink className=' text-4xl  text-purple-400  flex justify-center items-center'/></a></div>
