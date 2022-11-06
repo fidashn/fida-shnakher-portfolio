@@ -57,7 +57,7 @@ export default function Home() {
 
           <section>
             <div>
-              <h3 className='text-3xl py-1  mt-20 flex justify-center text-teal-500 max-sm:text-3xl max-sm:pt-10'>Technologies I use</h3>
+              <h3 className='text-3xl py-2  mt-20 flex justify-center text-teal-500 max-sm:text-3xl max-sm:pt-10'>Technologies I use</h3>
               <div className='flex justify-center p-10 gap-5 max-sm:flex-wrap max-sm:text-lg'>
               <FaHtml5 className='text-4xl text-purple-400'/>
               <IoLogoJavascript className='text-4xl text-purple-400'/>
@@ -72,7 +72,7 @@ export default function Home() {
               
             </div>
             <div className=' flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <h3 className='text-teal-500 text-4xl py-1 mt-10  flex justify-center max-sm:text-3xl'>My Favorite Projects</h3>
+              <h3 className='text-teal-500 text-4xl py-1 mt-10  flex justify-center max-sm:mt-1 max-sm:text-3xl'>My Favorite Projects</h3>
 
               <div className='mt-10 lg:flex-col justify-center gap-10'>
 
